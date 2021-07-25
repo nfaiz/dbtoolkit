@@ -1,0 +1,38 @@
+{
+    "name": "nfaiz/dbtoolkit",
+    "description": "Illuminate Database Wrapper for CodeIgniter 4.",
+    "keywords": [
+        "codeigniter",
+        "codeigniter4",
+        "illuminate",
+        "toolbar",
+        "database",
+        "sql",
+        "wrapper"
+    ],
+    "homepage": "https://github.com/nfaiz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noorulfaiz Ateman",
+            "homepage": "http://www.ukm.my/faiz",
+            "role": "Project Author"
+        }
+    ],
+    "require": {
+        "illuminate/events": "^8",
+        "illuminate/database": "^8",
+        "scrivo/highlight.php": "^9.18",
+        "codeigniter4/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nfaiz\\DbTookit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nfaiz\\DbTookit\\": "src/"
+        }
+    }
+}
