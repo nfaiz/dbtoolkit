@@ -81,4 +81,4 @@ $path = \HighlightUtilities\getStyleSheetPath('github');
 d($path);
 ```
 
-Back to [<< Highlighter Configuration Section](../README.md#highlighter-stylesheet).
+Back to [<< Highlighter Configuration Section](../README.md#styling).
