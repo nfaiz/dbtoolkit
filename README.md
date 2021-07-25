@@ -17,13 +17,13 @@ An [Illuminate Database](https://github.com/illuminate/database) wrapper for **C
     * [Create DbToolkit Config](#1-create-dbtoolkit-config)
     * [Modify Toolbar](#2-modify-toolbar)
   * [Configuration](#configuration)
-    * [Prerequisite](#prerequisite)
-      * [Pdo Extension](#pdo-extension)
-      * [Database Connection](#database-connection)
-    * [DbToolkit config](#DbToolkit-config)
-    * [Toolbar Config](#toolbar-config)
-      * [Query Collector](#query-collector)
-      * [Styling](#styling)
+    * [Prerequisite](#1-prerequisite)
+      * [Pdo Extension](#i-pdo-extension)
+      * [Database Connection](#ii-database-connection)
+    * [DbToolkit config](#2-dbtoolkit-config)
+    * [Toolbar Config](#3-toolbar-config)
+      * [Query Collector](#i-query-collector)
+      * [Styling](#ii-styling)
   * [Usage](#usage)
     * [Capsule](#capsule)
     * [Working With Database](#working-with-database)
@@ -113,13 +113,13 @@ Once the capsule instance has been registered, the wrapper is ready to use. See 
 
 ## Configuration
 
-### Prerequisite
+### 1.Prerequisite
 
-#### PDO extension
+#### i. PDO extension
 * **Illuminate Database** is using **PDO** driver for database connection. Make sure selected **PDO** driver `extension` is enabled.
 * This library will automatically **map** CodeIgniter 4 database connection setting to **Illuminate Database** PDO setting.
 
-#### Database connection
+#### ii. Database connection
 * Retain CodeIgniter 4 database connection setting.
 * Refer [here](https://www.codeigniter.com/user_guide/database/configuration.html) how to configure database connection.
 * Use connection group in **app/Config/Database.php** to set at **app/Config/DbToolkit.php** `$dbGroup` property.
@@ -147,7 +147,7 @@ database.default.DBPrefix =
 ```
 
 
-### DbToolkit Config
+### 2. DbToolkit Config
 `File location: app/Config/DbToolkit.php`<br>
 
 Change property value accordingly
@@ -162,14 +162,14 @@ Change property value accordingly
 | $tabTitle | Title to display at debug toolbar tab | `string` | `DBQueries` |
 
 
-### Toolbar Config
+### 3. Toolbar Config
 `File location: app/Config/Toolbar.php`<br />
 
-#### Query Collector
+#### i. Query Collector
 To display `DbToolkit` tab at `debug toolbar`. See configuration [here](docs/CONFIGURATION.md#toolbar-config)
 
 
-#### Styling
+#### ii. Styling
 Change database toolbar styling. See configuration [here](docs/CONFIGURATION.md#database-toolbar-styling).
 
 

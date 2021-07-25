@@ -43,9 +43,9 @@ Back to [<< Installation Section](../README.md#installation).
 
 In **app/Config** directory<br />
 
-Modify file [Toolbar.php](MANUAL.md#toolbar)
+Modify file [Toolbar.php](#toolbar)
 
-Create file [DbToolkit.php](MANUAL.md#dbtoolkit)
+Create file [DbToolkit.php](#dbtoolkit)
 
 
 ### Toolbar
