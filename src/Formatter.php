@@ -66,10 +66,10 @@ class Formatter
         $margin = $this->getBottomMargin();
 
         return <<<STYLE
-        <style>
+        <STYLE>
         .hljs-pre-line{white-space:pre-line;margin-bottom:{$margin}px;}
         {$style}
-        </style>
+        </STYLE>
         STYLE;
     }
 
