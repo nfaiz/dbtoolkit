@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Nfaiz\\DbTookit\\": "src/"
+            "Nfaiz\\DbToolkit\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nfaiz\\DbTookit\\": "src/"
+            "Nfaiz\\DbToolkit\\": "src/"
         }
     }
 }
