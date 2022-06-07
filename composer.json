@@ -20,10 +20,11 @@
         }
     ],
     "require": {
+        "php": "^7.3|^8.0",
+        "codeigniter4/framework": "^4.1",
         "illuminate/events": "^9",
         "illuminate/database": "^9",
-        "scrivo/highlight.php": "^9.18",
-        "codeigniter4/framework": "^4.2"
+        "scrivo/highlight.php": "^9.18"
     },
     "autoload": {
         "psr-4": {
