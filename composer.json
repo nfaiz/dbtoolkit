@@ -23,7 +23,7 @@
         "illuminate/events": "^9",
         "illuminate/database": "^9",
         "scrivo/highlight.php": "^9.18",
-        "codeigniter4/framework": "^4"
+        "codeigniter4/framework": "^4.2"
     },
     "autoload": {
         "psr-4": {
